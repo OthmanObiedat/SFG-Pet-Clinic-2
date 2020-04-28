@@ -1,4 +1,5 @@
-package sssd.spring5.sfgpetclinic.model;
+package org.pet.clinic.data.model;
+
 
 public class Person {
 	

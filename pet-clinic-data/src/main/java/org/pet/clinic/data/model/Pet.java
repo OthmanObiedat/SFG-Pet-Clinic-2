@@ -1,8 +1,7 @@
-package sssd.spring5.sfgpetclinic.model;
+package org.pet.clinic.data.model;
 
 import java.time.LocalDate;
-
-import sssd.spring5.sfgpetclinic.model.Util.PetType;
+import org.pet.clinic.data.model.Util.PetType;
 
 public class Pet {
 
