@@ -1,9 +1,8 @@
 package org.pet.clinic.model;
 
 import java.time.LocalDate;
-import org.pet.clinic.model.Util.PetType;
 
-public class Pet {
+public class Pet extends BaseEntity{
 
 	private PetType petType;
 	private Owner owner;
