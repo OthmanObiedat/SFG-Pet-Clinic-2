@@ -1,7 +1,7 @@
-package org.pet.clinic.data.model;
+package org.pet.clinic.model;
 
 import java.time.LocalDate;
-import org.pet.clinic.data.model.Util.PetType;
+import org.pet.clinic.model.Util.PetType;
 
 public class Pet {
 
