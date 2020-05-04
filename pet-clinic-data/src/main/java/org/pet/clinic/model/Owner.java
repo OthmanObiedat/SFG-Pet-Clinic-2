@@ -1,5 +1,5 @@
 package org.pet.clinic.model;
 
-public class Owner {
+public class Owner extends Person{
 
 }
