@@ -4,8 +4,9 @@ import java.util.Set;
 
 import org.pet.clinic.model.Owner;
 import org.pet.clinic.services.CrudService;
+import org.pet.clinic.services.OwnerService;
 
-public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements CrudService<Owner, Long>{
+public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService{
 
 	@Override
 	public Owner findById(Long id) {
@@ -30,6 +31,11 @@ public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements C
 	@Override
 	public void deleteById(Long id) {
 		 super.deleteById(id);
+	}
+	@Override
+	public Owner findByLastName(String lastName) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }
