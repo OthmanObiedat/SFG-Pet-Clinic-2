@@ -1,8 +1,5 @@
 package org.pet.clinic.controllers;
 
-import java.util.Set;
-
-import org.pet.clinic.model.Owner;
 import org.pet.clinic.services.OwnerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
