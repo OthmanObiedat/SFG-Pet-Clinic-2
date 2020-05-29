@@ -6,7 +6,11 @@ import java.util.Set;
 import org.pet.clinic.model.PetType;
 import org.pet.clinic.reposotries.PetTypeRepository;
 import org.pet.clinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
+@Service
+@Profile("springdatajpa")
 public class PetTypeSDJpaService implements PetTypeService{
 
 	private final PetTypeRepository petTypeRepository;
